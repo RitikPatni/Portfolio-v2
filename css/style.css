@@ -11,6 +11,7 @@
     background: url('http://babalucas.com/wp-content/uploads/babalucas_background_2a.jpg') no-repeat center center fixed;
     background-size: cover;
     height:100vh;
+    opacity:1;
 }
 #devIntro{
 font-family:'Playfair Display SC',serif;
