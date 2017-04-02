@@ -48,3 +48,17 @@ font-weight: 900;
     color: #ffffff;
     font-family:'Droid Serif',Serif;
 }
+footer {
+    padding: 50px 0;
+    background: rgba(192, 192, 192, 0.9);
+}
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
