@@ -47,10 +47,6 @@ font-weight: 900;
     color: #ffffff;
     font-family:'Droid Serif',Serif;
 }
-footer{
-    padding: 50px 0;
-    background: rgba(192, 192, 192, 0.9);
-}
 body{
     display: flex;
     min-height: 100vh;
@@ -62,6 +58,7 @@ main{
 }
 #footer{
     background-color: #00695c;
+    height: 15%;
 }
 .parallax-container{
     height: 500px;
