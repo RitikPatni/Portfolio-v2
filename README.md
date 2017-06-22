@@ -1,2 +1,2 @@
 PORTFOLIO 
-Visit it at   https://ritikpatni.github.io/Portfolio-v2
+Visit it at   https://ritikpatni.github.io
