@@ -84,4 +84,8 @@ main {
     .col.s8.m4.card {
         width: 95vw;
     }
+    .btnWidth {
+        width: 48px;
+        height: 48px;
+    }
 }
