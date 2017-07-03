@@ -37,11 +37,11 @@
     height: 100%;
     background: url('http://dpi.az/images/black_bg.jpg') no-repeat center center fixed;
     background-size: cover;
+    opacity: 0.8;
 }
 
 #aboutMebg {
     height: 100vh;
-    background: rgba(255, 255, 255, 0.2);
 }
 
 #summaryHead {
