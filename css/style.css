@@ -75,3 +75,7 @@ main {
 .parallax-container {
     height: 500px;
 }
+
+.btnWidth {
+    width: 70px
+}
