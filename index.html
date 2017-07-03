@@ -1,219 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Ritik Patni</title>
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css'>
- <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
- <link rel='stylesheet' href='css/style.css'>
+    <meta charset="UTF-8">
+    <title>Ritik Patni</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://cdn4.iconfinder.com/data/icons/security-overcolor/512/skull-512.png" type="image/png" sizes="16x16">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='css/style.css'>
 </head>
-<body>as
-        <!--Navigation Bar-->
-            <div class="navbar-fixed">
-                <nav id="navBar">
-                    <div class="nav-wrapper">
-                        <a href="#!" class="brand-logo" id="navBrand">Ritik Patni</a>
-                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                        <ul class="right hide-on-med-and-down">
+
+<body>
+    <!--Navigation Bar-->
+    <div class="navbar-fixed">
+        <nav id="navBar">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo" id="navBrand">Ritik Patni</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contactMe">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="side-nav" id="mobile-demo">
+        <li><a href="#home"><i class="material-icons">home</i>HOME</a></li>
+        <li><a href="#aboutMe"><i class="material-icons">person</i>ABOUT ME</a></li>
+        <li><a href="#portfolio"><i class="material-icons">description</i>PORTFOLIO</a></li>
+        <li><a href="#contactMe"><i class="material-icons">dialpad</i>CONTACT ME</a></li>
+    </ul>
+    <!--Navigation Bar Ends-->
+    <!--Section 1 Begins-->
+    <div id="home" class="section scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div id="secData" class="valign">
+                        <div class="responsive-img">
+                            <img class="circle" src="http://placehold.it/150x150" alt="profilePic">
+                        </div>
+                        <div id="devIntro">
+                            <hr>
+                            <h1 id="devName" class="center-align">Ritik Patni</h1>
+                            <h3 id="devDesc" class="center-align">Aspiring Front End Developer</h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Section 1 Ends-->
+    <!--Section 2 Begins-->
+    <div id="aboutMe" class="section scrollspy">
+        <div id="aboutMebg">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <hr>
+                        <h2 id="summaryHead">About Me</h2>
+                        <hr>
+                        <p id="summaryContent">I'm Ritik, a freelance website developer & designer. I'm currently an undergrad student at Swami Keshvanand Institute of Technology,Jaipur majoring in Computer Science. My ultimate goal is to become a full stack developer. I
+                            <i
+                                class="fa fa-heart" aria-hidden="true"></i> creating stuff that is efficient and appealing to the eye. My <i class="fa fa-heart" aria-hidden="true"></i> for computers made me interested in various fields such as: Artificial Intelligence, Network Security, Game Development,
+                                and Data Science.<br> Yes, indeed, I'm a huge <i class="fa fa-desktop" aria-hidden="true"></i> nerd.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Section 2 Ends-->
+    <!--Section 3 Begins-->
+    <div id="portfolio" class="section scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h1 class="center-align">Projects</h1>
+                    <h3 class="center-align">Here are some of my work samples</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s8 m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="http://placehold.it/400x150" alt="Project1">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+            <div class="col s8 m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="http://placehold.it/400x150" alt="Project2">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+            <div class="col s8 m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="http://placehold.it/400x150" alt="Project3">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+            <div class="col s8 m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="http://placehold.it/400x150" alt="Project4">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+            <div class="col s8 m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="http://placehold.it/400x150" alt="Project5">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+            <div class="col s8 m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="http://placehold.it/400x150" alt="Project6">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Section 3 End-->
+    <!--Final Section-->
+    <div id="contactMe" class="section scrollspy">
+        <footer class="page-footer" id="footer">
+            <div class="container scrollspy">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Contact Me</h5>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <ul>
                             <li><a href="#home">Home</a></li>
                             <li><a href="#aboutMe">About Me</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#contactMe">Contact Me</a></li>
                         </ul>
                     </div>
-                </nav>
+                </div>
             </div>
-            <ul class="side-nav" id="mobile-demo">
-                <li><a href="#home"><i class="material-icons">home</i>HOME</a></li>
-                <li><a href="#aboutMe"><i class="material-icons">person</i>ABOUT ME</a></li>
-                <li><a href="#portfolio"><i class="material-icons">description</i>PORTFOLIO</a></li>
-                <li><a href="#contactMe"><i class="material-icons">dialpad</i>CONTACT ME</a></li>
-            </ul>
-            <!--Navigation Bar Ends-->
-            <!--Section 1 Begins-->
-            <div id="home" class="section scrollspy">
+            <div class="footer-copyright">
                 <div class="container">
                     <div class="row">
-                        <div class="col s12">
-                            <div id="secData" class="valign">
-                                <div class="responsive-img">
-                                    <img class="circle" src="http://placehold.it/150x150" alt="profilePic">
-                                </div>
-                                <div id="devIntro">
-                                    <hr >
-                                    <h1 id="devName" class="center-align">Ritik Patni</h1>
-                                    <h3 id="devDesc" class="center-align">Aspiring Front End Developer</h3>
-                                    <hr >
-                                </div>
-                            </div>
+                        <div class="col">
+                            © 2017 Ritik Patni
                         </div>
                     </div>
                 </div>
             </div>
-            <!--Section 1 Ends-->
-            <!--Section 2 Begins-->
-            <div id="aboutMe" class="section scrollspy">
-                <div id="aboutMebg">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <hr >
-                                <h2 id="summaryHead">About Me</h2>
-                                <hr>
-                                <p id="summaryContent">I'm Ritik, a freelance website developer & designer.
-                                        I'm currently an undergrad student at Swami Keshvanand Institute of Technology,Jaipur majoring in Computer Science.
-                                        My ultimate goal is to become a full stack developer.
-                                        I <i class="fa fa-heart" aria-hidden="true"></i> creating stuff that is efficient and appealing to the eye.
-                                        My <i class="fa fa-heart" aria-hidden="true"></i> for computers made me interested in various fields such as: Artificial Intelligence, Network Security, Game Development, and Data Science.<br>
-                                        Yes, indeed, I'm a huge <i class="fa fa-desktop" aria-hidden="true"></i> nerd.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Section 2 Ends-->
-            <!--Section 3 Begins-->
-            <div id="portfolio" class="section scrollspy">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s12">
-                            <h1 class="center-align">Projects</h1>
-                            <h3 class="center-align">Here are some of my work samples</h3>
-                        </div>
-                    </div>
-                </div>
+        </footer>
+    </div>
+    <!--Final Section End-->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js'></script>
+    <script src='js/index.js'></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-                <div class="row">
-                    <div class="col s8 m4 card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="http://placehold.it/400x150" alt="Project1">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-
-                    <div class="col s8 m4 card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="http://placehold.it/400x150" alt="Project2">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-
-                    <div class="col s8 m4 card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="http://placehold.it/400x150" alt="Project3">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-
-                    <div class="col s8 m4 card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="http://placehold.it/400x150" alt="Project4">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-
-                    <div class="col s8 m4 card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="http://placehold.it/400x150" alt="Project5">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-
-                    <div class="col s8 m4 card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="http://placehold.it/400x150" alt="Project6">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Section 3 End-->
-            <!--Final Section-->
-                <div id="contactMe" class="section scrollspy">
-                    <footer class="page-footer" id="footer">
-                        <div class="container scrollspy">
-                            <div class="row">
-                                <div class="col l6 s12">
-                                    <h5 class="white-text">Contact Me</h5>
-                                </div>
-                                <div class="col l4 offset-l2 s12">
-                                    <ul>
-                                        <li><a href="#home">Home</a></li>
-                                        <li><a href="#aboutMe">About Me</a></li>
-                                        <li><a href="#portfolio">Portfolio</a></li>
-                                        <li><a href="#contactMe">Contact Me</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="footer-copyright">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col">
-                                        © 2017 Ritik Patni
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </footer>
-                </div>
-                <!--Final Section End-->
-                <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js'></script>
-                <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js'></script>
-                <script src='js/index.js'></script>
-                <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-101094038-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+        ga('create', 'UA-101094038-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
