@@ -79,3 +79,9 @@ main {
 .btnWidth {
     width: 70px
 }
+
+@media only screen and (max-width: 500px) {
+    .col.s8.m4.card {
+        width: 95vw;
+    }
+}
