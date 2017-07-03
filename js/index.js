@@ -1,9 +1,7 @@
-$( document )
-	.ready( function() {
-		$( ".button-collapse" )
-			.sideNav();
-		$( '.parallax' )
-			.parallax();
-		$( '.scrollspy' )
-			.scrollSpy();
-	} );
+$(document)
+    .ready(function() {
+        $(".button-collapse")
+            .sideNav();
+        $('.scrollspy')
+            .scrollSpy({ scrollOffset: 30 });
+    });
