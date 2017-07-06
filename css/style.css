@@ -11,7 +11,7 @@
     padding-top: 15%;
     padding-bottom: 10%;
     text-align: center;
-    background: url('http://babalucas.com/wp-content/uploads/babalucas_background_2a.jpg') no-repeat center center fixed;
+    background: url('https://github.com/RitikPatni/ritikpatni.github.io/blob/master/images/homeBg.jpg?raw=true') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -33,7 +33,7 @@
 #aboutMe {
     width: 100%;
     height: 100%;
-    background: url('http://dpi.az/images/black_bg.jpg') no-repeat center center fixed;
+    background: url('https://github.com/RitikPatni/ritikpatni.github.io/blob/master/images/aboutMeBg.jpg?raw=true') no-repeat center center fixed;
     background-size: cover;
     opacity: 0.8;
 }
