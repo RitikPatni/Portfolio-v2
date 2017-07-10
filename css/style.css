@@ -74,13 +74,13 @@ main {
         padding-top: 15%;
         padding-bottom: 10%;
         text-align: center;
-        background: url('https://github.com/RitikPatni/ritikpatni.github.io/blob/master/images/homeBgPhone.jpg?raw=true') no-repeat center center fixed;
+        background: url('../images/homeBgPhone.jpg') no-repeat center center fixed;
         background-size: cover;
     }
     #aboutMe {
         width: 100%;
         height: 100%;
-        background: url('https://github.com/RitikPatni/ritikpatni.github.io/blob/master/images/aboutMeBgPhone.jpg?raw=true') no-repeat center center fixed;
+        background: url('../images/aboutMeBgPhone.jpg') no-repeat center center fixed;
         background-size: cover;
         opacity: 0.8;
     }
@@ -92,13 +92,13 @@ main {
         padding-top: 15%;
         padding-bottom: 10%;
         text-align: center;
-        background: url('https://github.com/RitikPatni/ritikpatni.github.io/blob/master/images/homeBg.jpg?raw=true') no-repeat center center fixed;
+        background: url('../images/homeBg.jpg') no-repeat center center fixed;
         background-size: cover;
     }
     #aboutMe {
         width: 100%;
         height: 100%;
-        background: url('https://github.com/RitikPatni/ritikpatni.github.io/blob/master/images/aboutMeBg.jpg?raw=true') no-repeat center center fixed;
+        background: url('../images/aboutMeBg.jpg') no-repeat center center fixed;
         background-size: cover;
         opacity: 0.8;
     }
