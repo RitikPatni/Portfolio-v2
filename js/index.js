@@ -3,9 +3,6 @@ $(document).ready(function() {
         .sideNav({ closeOnClick: true, draggable: true });
     $('.scrollspy')
         .scrollSpy({ scrollOffset: 30 });
-    if ($(window).width() < 500) {
-        $('.btn').removeClass('btn');
-    }
 });
 
 (function(i, s, o, g, r, a, m) {
