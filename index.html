@@ -18,9 +18,63 @@
     <link rel="apple-touch-icon" href="images/skull-512.png">
     <link rel='stylesheet' href='css/custom-download.css '>
     <link rel='stylesheet' href='css/font-awesome-4.7.0/css/font-awesome.min.css '>
+    <noscript id="deferred-styles">
     <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+    </noscript>
     <link rel='stylesheet' href='css/style.css '>
 </head>
+<style>
+    #navBrand {
+        padding-left: 5%;
+    }
+    
+    #navBar {
+        background-color: #00695c;
+    }
+    
+    #devIntro {
+        padding-top: 1%;
+        color: #ffffff;
+    }
+    
+    #devName {
+        padding-top: 1%;
+        color: #ffffff;
+    }
+    
+    #devDesc {
+        color: #ffffff;
+        font-size: 2em;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    @media only screen and (max-width: 500px) {
+        #home {
+            height: 100vh;
+            padding-top: 15%;
+            padding-bottom: 10%;
+            text-align: center;
+            background: url('../images/homeBgPhone.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+    }
+    
+    @media only screen and (min-width: 501px) {
+        #home {
+            height: 100vh;
+            padding-top: 15%;
+            padding-bottom: 10%;
+            text-align: center;
+            background: url('../images/homeBg.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+    }
+</style>
 
 <body>
     <!--Navigation Bar-->
