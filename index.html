@@ -19,7 +19,6 @@
     <link rel='stylesheet' href='css/custom-download.css '>
     <link rel='stylesheet' href='css/font-awesome-4.7.0/css/font-awesome.min.css '>
     <link rel="alternate" href="https://ritikpatni.me" hreflang="en-us" />
-
     <noscript id="deferred-styles">
     <link rel='stylesheet' href='css/style.css '>
     </noscript>
@@ -50,13 +49,52 @@
         font-size: 2em;
     }
     
+    #aboutMebg {
+        height: 100vh;
+    }
+    
+    #summaryHead {
+        color: #fafafa;
+        font-family: "Roboto", sans-serif;
+        font-size: 4em;
+        font-weight: 900;
+    }
+    
+    #summaryContent {
+        color: #ffffff;
+        font-family: 'Droid Serif', Serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
     body {
         display: flex;
         flex-direction: column;
         min-height: 100vh;
     }
     
+    main {
+        flex: 1 0 auto;
+    }
+    
+    #footer {
+        background-color: #00695c;
+    }
+    
+    .parallax-container {
+        height: 500px;
+    }
+    
     @media only screen and (max-width: 500px) {
+        .col.s8.m4.card {
+            width: 95vw;
+        }
+        .btn-width {
+            padding-left: 2px;
+            width: 48px;
+            height: 48px;
+            color: #ffffff;
+        }
         #home {
             height: 100vh;
             padding-top: 15%;
@@ -65,9 +103,20 @@
             background: url('../images/homeBgPhone.jpg') no-repeat center center fixed;
             background-size: cover;
         }
+        #aboutMe {
+            width: 100%;
+            height: 100%;
+            background: url('../images/aboutMeBgPhone.jpg') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.8;
+        }
     }
     
     @media only screen and (min-width: 501px) {
+        .btn-width {
+            width: 60px;
+            color: #ffffff;
+        }
         #home {
             height: 100vh;
             padding-top: 15%;
@@ -75,6 +124,13 @@
             text-align: center;
             background: url('../images/homeBg.jpg') no-repeat center center fixed;
             background-size: cover;
+        }
+        #aboutMe {
+            width: 100%;
+            height: 100%;
+            background: url('../images/aboutMeBg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.8;
         }
     }
 </style>
