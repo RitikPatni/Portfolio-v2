@@ -19,123 +19,10 @@
     <link rel='stylesheet' href='css/custom-download.css '>
     <link rel='stylesheet' href='css/font-awesome-4.7.0/css/font-awesome.min.css '>
     <link rel="alternate" href="https://ritikpatni.me" hreflang="en-us" />
-    <noscript id="deferred-styles">
-    <link rel='stylesheet' href='css/style.css '>
-    </noscript>
+    <link rel='stylesheet' href='css/style.min.css '>
     <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
 
 </head>
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand');
-    #navBrand {
-        padding-left: 5%;
-    }
-    
-    #navBar {
-        background-color: #55c7b9;
-    }
-    
-    #devIntro {
-        padding-top: 1%;
-        color: #ffffff;
-    }
-    
-    #devName {
-        padding-top: 1%;
-        color: #ffffff;
-        font-family: 'Playfair Display', serif;
-    }
-    
-    #devDesc {
-        color: #ffffff;
-        font-size: 2em;
-    }
-    
-    #aboutMebg {
-        height: 100vh;
-    }
-    
-    #summaryHead {
-        color: #fafafa;
-        font-size: 4em;
-        font-weight: 900;
-    }
-    
-    #summaryContent {
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 400;
-    }
-    
-    body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        font-family: 'Quicksand', sans-serif;
-    }
-    
-    main {
-        flex: 1 0 auto;
-    }
-    
-    #footer {
-        background-color: #00695c;
-    }
-    
-    .parallax-container {
-        height: 500px;
-    }
-    
-    @media only screen and (max-width: 500px) {
-        .col.s8.m4.card {
-            width: 95vw;
-        }
-        .btn-width {
-            padding-left: 2px;
-            width: 48px;
-            height: 48px;
-            color: #ffffff;
-        }
-        #home {
-            height: 100vh;
-            padding-top: 15%;
-            padding-bottom: 10%;
-            text-align: center;
-            background: url('./images/homeBgPhone.jpg') no-repeat center center fixed;
-            background-size: cover;
-        }
-        #aboutMe {
-            width: 100%;
-            height: 100%;
-            background: url('./images/aboutMeBgPhone.jpg') no-repeat center center fixed;
-            background-size: cover;
-            opacity: 0.8;
-        }
-    }
-    
-    @media only screen and (min-width: 501px) {
-        .btn-width {
-            width: 60px;
-            color: #ffffff;
-        }
-        #home {
-            height: 100vh;
-            padding-top: 15%;
-            padding-bottom: 10%;
-            text-align: center;
-            background: url('./images/homeBg.jpg') no-repeat center center fixed;
-            background-size: cover;
-        }
-        #aboutMe {
-            width: 100%;
-            height: 120vh;
-            background: url('./images/aboutMeBg.jpg') no-repeat center center fixed;
-            background-size: cover;
-            opacity: 0.8;
-            padding-top: 20%;
-        }
-    }
-</style>
 
 <body>
     <!--Navigation Bar-->
@@ -190,11 +77,8 @@
                         <hr>
                         <h2 id="summaryHead">About Me</h2>
                         <hr>
-                        <p id="summaryContent">I'm Ritik, a freelance website developer & designer. I 'm currently an undergrad student at Swami Keshvanand Institute of Technology,Jaipur majoring in Computer Science. My ultimate goal is to become a full stack developer. I
-                            <i class="fa fa-heart" aria-hidden="true"></i> creating stuff that is efficient and appealing to the eye. My <i class="fa fa-heart" aria-hidden="true"></i> for computers made me interested in various fields such as: Artificial
-                            Intelligence, Network Security, Game Development, and Data Science.
-                            <br> Yes, indeed, I'm a huge <i class="fa fa-desktop" aria-hidden="true">
-</i> nerd.
+                        <p id="summaryContent">I'm Ritik, an aspiring UI/UX developer. I 'am currently an undergrad student at the Swami Keshvanand Institute of Technology, Jaipur majoring in Computer Science. I aim to become a successful designer in the days to come. I love
+                            creating Stuff that is efficient and appealing to the eye. I love learning new things and I'm always up for new challenges. You will always find me behind my screen even when I'm not pushing or pullingrepos.
                         </p>
                     </div>
                 </div>
@@ -301,13 +185,14 @@
     </div>
     <!--Section 3 End-->
     <!--Final Section-->
-    <div id="contactMe" class="section scrollspy" role="complementary">
+    <div id="contactMe" class=" scrollspy" role="complementary">
         <footer class="page-footer" id="footer">
             <div class="container scrollspy">
                 <div class="row">
                     <div class="col l6 s12">
-                        <h5 class="white-text center">Contact Me</h5>
-                        <br>
+                        <div class="col s12 center">
+                            <a class="waves-effect waves-teal btn-flat white-text contact-button" href="mailto:patniritik@gmail.com">Connect with me</a>
+                        </div><br>
                         <div class="col s2">
                             <a class="waves-effect waves-light btn-flat btn-width" href="https://www.facebook.com/0003AKA" target="_blank"><i class="fa fa-facebook " aria-hidden="true"></i></a>
                         </div>
@@ -328,7 +213,7 @@
                         </div>
                     </div>
                     <div class="right hide-on-med-and-down">
-                        <ul>
+                        <ul class="footer-links">
                             <li><a href="#home">Home</a></li>
                             <li><a href="#aboutMe">About Me</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
