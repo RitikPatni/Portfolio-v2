@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand');
+$bg-color:#30756D;
 #navBrand {
     padding-left: 5%;
 }
 
 #navBar,
 #footer {
-    background-color: #55c7b9;
+    background-color: $bg-color;
 }
 
 #devIntro {
@@ -110,10 +111,6 @@ footer {
             color: #fff;
         }
     }
-}
-
-.footer-copyright {
-    background: #2D6660 !important;
 }
 
 .contact-button {
